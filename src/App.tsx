@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import logo from './logo.svg';
 import "./App.css";
 import { NavBar } from "./components/NavBar";
+import { VisualDisplay } from "./components/VisualDisplay";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -10,7 +11,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <NavBar />
-      <h1>Welcome to Sorting Visualizer</h1>
+      <VisualDisplay />
     </div>
   );
 };
