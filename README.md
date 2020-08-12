@@ -1,4 +1,4 @@
-This is a sorting visualizer that helps people see how sorting algorithms work!
+## This is a sorting visualizer that helps people see how sorting algorithms work!
 
 ## Available Scripts
 
