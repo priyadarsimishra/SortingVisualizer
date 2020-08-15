@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(#660066, #6a1b9a, #660066);
+  width: 99%;
+  padding: 10px;
+  bottom: 0;
+  height: auto;
+  color: white;
+}
+.footer__createBy {
+  font-weight: 200;
+  font-size: 24px;
+}
+.footer__contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer__contactText {
+  font-weight: 400;
+  font-size: 24px;
+}
+.footer__youtubeIcon {
+  font-size: 36px !important;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  border-radius: 200px !important;
+}
+.footer__youtubeIcon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}

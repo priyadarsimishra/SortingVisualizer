@@ -1,0 +1,85 @@
+.sortingpage__editor {
+  background-color: #333 !important;
+  width: 40%;
+
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 5px !important;
+  margin-left: 50%;
+  margin-top: 20vh;
+}
+
+.sortingpage__leftSide {
+  width: 50%;
+  height: 771px;
+}
+.sortingpage__rightSide {
+  width: 50%;
+  background: linear-gradient(#311b92, #880e4f);
+  /* color: white; */
+}
+.sortingpage__leftSideContent {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sortingpage__sortingNameContainer {
+  text-align: center;
+  font-size: 28px;
+  white-space: nowrap;
+  font-weight: 800;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.sortingpage__sortingExplanation {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.sortingpage__complexityContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+.sortingpage__complexityText {
+  font-weight: 500;
+  padding: 8px;
+  padding-right: 5px;
+  letter-spacing: 2px;
+}
+.sortingpage__eachComplexityContainer {
+  display: flex;
+  align-items: center;
+}
+.sortingpage__icon {
+  font-size: 28px !important;
+}
+.blue {
+  color: blue !important;
+}
+.orange {
+  color: orange !important;
+}
+.sortingpage__cases {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.sortingpage__casesText {
+  font-size: 18px;
+  font-weight: 400;
+}
+.sortingpage__codeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sortingpage__codeImage {
+  width: 750px;
+  height: 500px;
+  border-radius: 15px;
+}

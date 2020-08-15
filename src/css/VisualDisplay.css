@@ -1,29 +1,21 @@
 .visualDisplay {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .visualDisplay__display {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   display: inline-block;
-  margin-top: 4vh;
+  margin-top: 2vh;
 }
 .visualDisplay__bars {
   margin: 0 5px;
   display: inline-block;
-
   width: 5px;
-
   background-color: skyblue;
 }
 .visualDisplay__newArrayButtonContainer {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .visualDisplay__newArrayButton {
   background-color: #ec407a !important;
@@ -63,4 +55,17 @@
 }
 .red {
   background-color: red !important;
+}
+.visualDisplay__header {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  font-size: 19px;
+  padding-bottom: 5px;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.visualDisplay__headerText2 {
+  font-weight: 200;
 }
