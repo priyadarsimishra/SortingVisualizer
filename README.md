@@ -1,5 +1,8 @@
 ## This is a sorting visualizer that helps people see how sorting algorithms work!
 
+## LINK: 
+https://sortingvisualizer-b9514.web.app
+
 ## Available Scripts
 
 In the project directory, you can run:
